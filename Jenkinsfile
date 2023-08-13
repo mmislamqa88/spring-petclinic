@@ -1,6 +1,6 @@
 
 pipeline {
-    triggers {pollSCM('*/2 * * * *')}
+   // triggers {pollSCM('*/2 * * * *')}
     agent any
     stages {
         stage ('Get or clone the code from repo') {
@@ -18,10 +18,10 @@ pipeline {
                 
             }
         }
-        stage ('Displaying unit test results') {
-            steps {
-                junit 'target/surefire-reports/*.xml'
-            }
-        }
+        // stage ('Displaying unit test results') {
+        //     steps {
+        //         junit 'target/surefire-reports/*.xml'
+        //     }
+        // }
     }
 }
