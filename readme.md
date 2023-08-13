@@ -39,7 +39,7 @@ There is no `Dockerfile` in this project. You can build a container image (if yo
 ./mvnw spring-boot:build-image
 ```
 
-## In case you find a bug/suggested improvement for Spring Petclinic CI
+## In case you find a bug/suggested improvement for Spring Petclinic CICD
 Our issue tracker is available [here](https://github.com/spring-projects/spring-petclinic/issues)
 
 
